@@ -2,10 +2,9 @@ import requests
 from openai import OpenAI
 import time
 
-# --- CONFIGURATION ---
 # Paste your official Regulations.gov API key between the quotes below:
 API_KEY = "YOUR_API_KEY_HERE" 
-# ---------------------
+
 
 # Initialize local LLM connection (Assuming a local server like LM Studio/Ollama on port 8080)
 client = OpenAI(base_url="http://localhost:8080/v1", api_key="not-needed")

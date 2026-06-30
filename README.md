@@ -15,6 +15,7 @@ This prototype serves as an "AI Bouncer" for government data. It proves that Cle
 1. **Data Ingestion:** The script bypasses clunky government UX by establishing a secure, direct connection to the `Regulations.gov` API, pulling live federal dockets.
 2. **Local AI Auditing:** Instead of relying on passive, generic chatbots, the engine feeds the raw comment text into a local LLM via a local GPU setup. The model is specifically prompted to detect bot-like corporate syntax versus authentic human anecdotes.
 3. **Data Formatting:** The audited data is stripped of legalese and exported into a clean, highly readable `authenticity_report.md` file.
+![ClearPolicy System Architecture](clearpolicy_architecture.png)
 
 ### How to Get Your Regulations.gov API Key
 
