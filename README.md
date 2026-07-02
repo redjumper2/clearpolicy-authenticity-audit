@@ -1,6 +1,6 @@
 # ClearPolicy Engine: Authenticity Audit Prototype
 
-A functional backend prototype developed for the **ClearPolicy S26 Internship Pitch (Team Andromeda - Task #2)**.
+A functional backend prototype developed for the **ClearPolicy S26 Internship Pitch (Team Andromeda)**.
 
 ### The Problem
 
