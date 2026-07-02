@@ -27,6 +27,14 @@ To run this script, you must authenticate with the official US Government Data A
 
 ### How to Run Locally
 
+# Prerequisites
+To run this authenticity engine locally, you must have two external connections active:
+
+1. **Regulations.gov API Key:** You must acquire a standard Data API key from Regulations.gov and paste it into the `API_KEY` variable inside `clearpolicy_engine.py`.
+2. **Local LLM Server (Required):** This engine does not use paid cloud AI APIs. It routes data to a local, privately hosted LLM to ensure data privacy. You must have a local LLM (e.g., Llama 3) running in the background via [LM Studio](https://lmstudio.ai/) or [Ollama](https://ollama.com/).
+   * **LM Studio Users:** Ensure your local server is running on port `1234`.
+   * **Ollama Users:** Ensure your local server is running on port `11434` and update the `base_url` port in the python script to match.
+
 Ensure you have your virtual environment set up and a local LLM server (like LM Studio or Ollama) running on port `8080`.
 
 1. Install dependencies:
