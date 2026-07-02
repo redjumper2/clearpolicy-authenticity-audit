@@ -27,7 +27,7 @@ To run this script, you must authenticate with the official US Government Data A
 
 ### How to Run Locally
 
-# Prerequisites
+Prerequisites:
 To run this authenticity engine locally, you must have two external connections active:
 
 1. **Regulations.gov API Key:** You must acquire a standard Data API key from Regulations.gov and paste it into the `API_KEY` variable inside `clearpolicy_engine.py`.
